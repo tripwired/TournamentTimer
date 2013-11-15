@@ -1,0 +1,122 @@
+* {
+  font-family: helvetica;
+  /*outline: 1px solid black;*/
+}
+
+.timerSection {
+  width: 400px;
+  text-align: center;
+  float: left;
+}
+
+.points {
+  width: 360px;
+  margin: 10px auto 60px auto;
+  overflow: hidden;
+}
+
+.points .four,
+.points .three,
+.points .two {
+  float: left;
+  width: 120px;
+}
+
+.points.top .value {
+  background-color: #009900;
+  color: #ffee33;
+  font-size: 6em;
+}
+
+.points.bottom .value {
+  background-color: #FFFFFF;
+  color: #000099;
+  font-size: 6em;
+}
+
+.point div button {
+  float: left;
+}
+
+.clock {
+  width: 400px;
+  margin-bottom: 60px;
+}
+
+.clock .timer {
+  font-size: 9em;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.clock button {
+  margin: 0 10px 10px 10px;
+}
+
+.clock .subtractMinute {
+  margin-right: 70px;
+}
+
+.clock .addSecond {
+  margin-left: 70px;
+}
+
+.scoreboards {
+  float: left;
+  margin-left: 50px;
+}
+
+.scoreboard {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.scoreboard.top {
+  margin-top: 40px;
+}
+
+.scoreboard.top .totalPoint {
+  background-color: #009900;
+  color: #FE3;
+}
+
+.scoreboard.top .advantage {
+  color: #090;
+}
+
+.scoreboard.bottom .advantage {
+  color: #009;
+}
+
+.scoreboard.bottom .totalPoint {
+  outline: 1px solid #009;
+  color: #009;
+}
+
+.scoreboard .header td {
+  font-size: 2em;
+  text-align: center;
+}
+
+.scoreboard .buttons td {
+  text-align: center;
+}
+
+.scoreboard .buttons button {
+  margin: 0 10px;
+}
+
+.scoreboard .points td {
+  font-size: 10em;
+  text-align: center;
+  width: 250px;
+}
+
+.scoreboard .points .penalty {
+  background-color: #F00;
+}
+
+.scoreboard .points .advantage {
+  background-color: #FE3;
+}
+

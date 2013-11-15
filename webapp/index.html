@@ -1,0 +1,122 @@
+<html>
+<head>
+  <title></title>
+  <script src="jquery.js"></script>
+  <script src="Timer.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="timerSection">
+    
+    <div class="points top">
+      <div class="four">
+        <span>Four Point</span>
+        <div class="value">00</div>
+        <button class="add">+</button>
+        <button class="subtract">-</button>
+      </div>
+      <div class="three">
+        <span>Three Point</span>
+        <div class="value">00</div>
+        <button class="add">+</button>
+        <button class="subtract">-</button>
+      </div>
+      <div class="two">
+        <span>Two Point</span>
+        <div class="value">00</div>
+        <button class="add">+</button>
+        <button class="subtract">-</button>
+      </div>
+    </div>
+
+    <div class="clock">
+      <span class="timeLabel">TIME</span>
+      <h1 class="timer">00:00</h1>
+      <button class="addMinute">+</button>
+      <button class="subtractMinute">-</button>
+      <button class="addSecond">+</button>
+      <button class="subtractSecond">-</button>
+      <br/>
+      <button class="startTimer">Start Timer</button>
+      <button class="stopTimer">Stop Timer</button>
+      <button class="restartTimer">Restart Timer</button>
+    </div>
+
+    <div class="points bottom">
+        <div class="four">
+          <span>Four Point</span>
+          <div class="value">00</div>
+          <button class="add">+</button>
+          <button class="subtract">-</button>
+        </div>
+        <div class="three">
+          <span>Three Point</span>
+          <div class="value">00</div>
+          <button class="add">+</button>
+          <button class="subtract">-</button>
+        </div>
+        <div class="two">
+          <span>Two Point</span>
+          <div class="value">00</div>
+          <button class="add">+</button>
+          <button class="subtract">-</button>
+        </div>
+    </div>
+  </div>
+
+  <div class="scoreboards">
+    <div class="scoreboard top">
+     <table>
+         <tr class="buttons">
+           <td></td>
+           <td class="penalty">
+             <button class="add">+</button>
+             <button class="subtract">-</button>
+           </td>
+           <td class="advantage">
+             <button class="add">+</button>
+             <button class="subtract">-</button>
+           </td>
+         </tr>
+         <tr class="header">
+           <td>Total Points</td>
+           <td>Penalty</td>
+           <td>Advantage</td>
+         </tr>
+         <tr class="points">
+           <td class="totalPoint">00</td>
+           <td class="penalty">00</td>
+           <td class="advantage">00</td>
+         </tr>
+       </table>
+    </div>
+    <div class="scoreboard bottom">
+      <table>
+        <tr class="header">
+          <td>Total Points</td>
+          <td>Penalty</td>
+          <td>Advantage</td>
+        </tr>
+        <tr class="points">
+          <td class="totalPoint">00</td>
+          <td class="penalty">00</td>
+          <td class="advantage">00</td>
+        </tr>
+        <tr class="buttons">
+          <td></td>
+          <td class="penalty">
+            <button class="add">+</button>
+            <button class="subtract">-</button>
+          </td>
+          <td class="advantage">
+            <button class="add">+</button>
+            <button class="subtract">-</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <button class="reset">Reset Match</button><button class="publicview">Open Public Screen</button><button class="fullscreen">Full Screen</button>
+  </div>
+
+</body>
+</html>

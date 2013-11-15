@@ -1,0 +1,15 @@
+{
+  "name": "Brazillian Jiu Jitsu Tournament Timer",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Tournament Timer",
+  "icons": {
+    "24": "icon_24.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "launch": {
+      "local_path":"index.html"
+    }
+  }
+}
